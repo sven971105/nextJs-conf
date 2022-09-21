@@ -1,0 +1,27 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write your own custom component styles here */
+.btn-blue {
+  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+/* Make <AmplifyAuthenticator> fit nicely in a fly-out panel */
+amplify-authenticator {
+  --container-height: auto;
+  --container-justify: center;
+  --margin-bottom: 0;
+  --min-width: 100%;
+  --width: 100%;
+}
